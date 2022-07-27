@@ -1,5 +1,5 @@
 # Cours 20277
-## _Advanced programing in java language_
+## _Database Systems_
 
 https://www-e.openu.ac.il/courses/20277.htm
 https://www.openu.ac.il/courses/20277.htm
