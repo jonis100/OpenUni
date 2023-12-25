@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DictionaryController">
+   <center>
+      <TableView fx:id="table" maxWidth="-Infinity" prefHeight="116.0" prefWidth="580.0" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn fx:id="termColumn" maxWidth="290.0" prefWidth="290.0" resizable="false" text="Term" />
+          <TableColumn fx:id="interpretationColumn" maxWidth="290.0" prefWidth="290.0" resizable="false" text="Interpretation" />
+        </columns>
+      </TableView>
+   </center>
+   <bottom>
+      <VBox prefHeight="150.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="600.0">
+               <children>
+                  <TextField fx:id="addOrUpdateOrDeleteTerm" promptText="Term">
+                     <HBox.margin>
+                        <Insets left="10.0" right="10.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <TextField fx:id="addOrUpdateInterpretation" promptText="Interpretation">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <Button fx:id="add" mnemonicParsing="false" onAction="#add" text="Add">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin></Button>
+                  <Button fx:id="update" mnemonicParsing="false" onAction="#update" text="Update">
+                  <HBox.margin>
+                     <Insets right="10.0" />
+                  </HBox.margin></Button>
+                  <Button fx:id="delete" mnemonicParsing="false" onAction="#delete" text="Delete" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="saveToFile" mnemonicParsing="false" onAction="#saveToFile" text="Save">
+                     <HBox.margin>
+                        <Insets left="10.0" right="10.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#loadFromFile" text="Load" />
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </HBox>
+         </children>
+         <padding>
+            <Insets bottom="5.0" top="5.0" />
+         </padding>
+      </VBox>
+   </bottom>
+   <top>
+      <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="searchTerm" alignment="CENTER" prefHeight="27.0" prefWidth="284.0" promptText="Type a term and find out what it means">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </TextField>
+            <Button fx:id="search" mnemonicParsing="false" onAction="#search" text="Search">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin></Button>
+            <Button fx:id="clear" mnemonicParsing="false" onAction="#clear" text="Clear search" />
+         </children>
+      </HBox>
+   </top>
+</BorderPane>

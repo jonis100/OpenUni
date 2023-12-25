@@ -1,0 +1,59 @@
+
+please insert 11 times 0 or 1 for the first row and do so for all rowes until th11 row
+
+your mat is:
+   0 1 2 3 4 5 6 7 8 9 10
+ 0 0 0 0 0 1 1 0 1 0 1 1
+ 1 0 0 0 0 0 0 0 0 0 0 0
+ 2 0 1 0 0 0 0 0 0 0 0 0
+ 3 0 0 0 0 0 0 0 0 0 0 0
+ 4 0 0 0 0 0 0 0 0 0 0 0
+ 5 0 0 0 0 0 0 0 0 0 0 0
+ 6 1 0 1 0 0 0 0 0 1 0 0
+ 7 0 0 0 0 0 0 0 0 0 0 0
+ 8 0 0 0 1 0 0 0 0 0 0 0
+ 9 0 0 0 0 0 0 0 0 0 0 0
+ 10 0 0 0 0 0 0 0 0 0 0 0
+
+please insert another 2 indexes in order to check possible path in the mat
+
+Yes. Exsist correct path from 6 to 1
+please insert another 2 indexes in order to check possible path in the mat
+Yes. Exsist correct path from 0 to 9
+please insert another 2 indexes in order to check possible path in the mat
+No correct path from 2 to 10
+please insert another 2 indexes in order to check possible path in the mat
+No correct path from 1 to 2
+please insert another 2 indexes in order to check possible path in the mat
+please insert 11 times 0 or 1 for the first row and do so for all rowes until th11 row
+
+your mat is:
+   0 1 2 3 4 5 6 7 8 9 10
+ 0 0 0 0 0 0 0 0 0 0 0 0
+ 1 0 0 0 0 0 0 0 0 0 0 0
+ 2 0 0 0 0 0 0 0 0 0 0 0
+ 3 0 0 0 0 0 0 0 0 0 0 0
+ 4 0 1 1 0 0 0 0 0 0 0 0
+ 5 0 0 0 1 1 0 1 0 0 0 0
+ 6 1 0 0 0 0 0 0 0 0 0 0
+ 7 0 0 0 0 0 0 0 0 0 0 0
+ 8 0 0 0 0 0 0 0 0 0 0 0
+ 9 0 0 0 0 0 0 0 1 1 0 0
+ 10 0 0 0 0 0 1 0 0 0 1 0
+
+please insert another 2 indexes in order to check possible path in the mat
+
+Yes. Exsist correct path from 10 to 1
+please insert another 2 indexes in order to check possible path in the mat
+Yes. Exsist correct path from 5 to 3
+please insert another 2 indexes in order to check possible path in the mat
+No correct path from 8 to 4
+please insert another 2 indexes in order to check possible path in the mat
+No correct path from 2 to 0
+please insert another 2 indexes in order to check possible path in the mat
+Yes. Exsist correct path from 3 to 3
+please insert another 2 indexes in order to check possible path in the mat
+No correct path from 3 to 11
+please insert another 2 indexes in order to check possible path in the mat
+No correct path from 12 to 9
+please insert another 2 indexes in order to check possible path in the mat

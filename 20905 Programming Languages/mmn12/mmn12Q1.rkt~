@@ -1,0 +1,11 @@
+#lang eopl
+
+;(require "utils.scm")
+
+(define-datatype binaryNum binaryNum?
+  (create)
+  (add-bit
+   (binaryNum binaryNum?)
+   (bit boolean?)))
+
+

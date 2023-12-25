@@ -1,0 +1,11 @@
+this program contain for the class DecTreeNode:
+
+1. private DecTreeNode root; Atrribute
+
+2. DecisionTreeImpl (DataSet train) ; constructor
+
+3. public string classify (Instance instance); method
+
+4. public void rootInfoGain (DataSet train); method
+
+5. This requirement not fulfilled.
